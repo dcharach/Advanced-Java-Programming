@@ -47,7 +47,7 @@ public class Library {
 			{
 				persons.get(x).setLastName(newLN);
 			}
-	}
+		}
 	}
 	
 	public void modifyLastName(int employeeid, String newLastName) {
@@ -124,7 +124,7 @@ public class Library {
 				((Librarian) persons.get(x)).modifyPay(newPay);
 				else if(persons.get(x)instanceof Employee)
 					((Employee) persons.get(x)).modifyPay(newPay);
-			}
+				}
 			}
 	}
 	
